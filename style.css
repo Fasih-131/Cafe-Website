@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Border Customizations */
+.cards_special {
+  border-bottom: 0.5px solid black;
+}
+
+.about-custom {
+  border: 5px double #e2725b;
+  padding: 1rem;
+}
+
+/* Background Customizations */
+.menu {
+  background-color: #f5f5dc;
+}
+
+.body {
+  background-color: #f5f5dc;
+}
+
+footer {
+  background-color: #a9a391;
+}
+
+/* Font Styles */
+.body {
+  font-style: "Playfair Display";
+}
+
+/* Nav Bar Customization */
+.custom-navbar {
+  background-color: #4b3832;
+  border-bottom: 0.5px solid black;
+}
+
+.custom-navbar .nav-link {
+  color: #e2725b;
+}
+
+.custom-navbar .navbar-brand {
+  color: #e2725b;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f5c71a;
+}
+
+.custom-navbar .nav-link.active {
+  color: #228b22;
+}
+
+/* Text Customizations */
+h1 {
+  color: #333333;
+}
+
+p {
+  color: #b52222;
+}
+
+.specials {
+  color: #e2725b;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
